@@ -1,0 +1,31 @@
+CPU: No. of 2 virtual CPU
+CPU Usage (avg): 98%
+RAM USED: 294MB
+RAM MAX: 3008MB
+MAX PARALLEL INVOCATION: 1000 (default)
+Ephemeral storage: 2048MB
+Ephemeral File System: 271.2
+
+SAMPLE: ERR188044_chrX.1.fastq (278.2MB), ERR188044_chrX.2.fastq (278.2MB)
+REF_GENOME: chrX_tran (271.7)
+
+CMD: ./hisat2 -x /mnt/efs1/chrX_tran -1 ERR188044_chrX_1.fastq -2 ERR188044_chrX_2.fastq -S /tmp/ERR188044.sam
+
+RUNTIME: 00:02:04
+
+OUTPUT:
+1321477 reads; of these:
+1321477 (100.00%) were paired; of these:
+112728 (8.53%) aligned concordantly 0 times
+1185038 (89.68%) aligned concordantly exactly 1 time
+23711 (1.79%) aligned concordantly >1 times
+----
+112728 pairs aligned concordantly 0 times; of these:
+4529 (4.02%) aligned discordantly 1 time
+----
+108199 pairs aligned 0 times concordantly or discordantly; of these:
+216398 mates make up the pairs; of these:
+109001 (50.37%) aligned 0 times
+104637 (48.35%) aligned exactly 1 time
+2760 (1.28%) aligned >1 times
+95.88% overall alignment rate

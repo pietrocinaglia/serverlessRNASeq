@@ -1,0 +1,32 @@
+CPU: 2.7 GHz Intel Core i7 dual-core (4 thread)
+CPU Usage (avg): 97%
+RAM USED: OS + 294MB
+RAM MAX: 8192MB (8GB)
+MAX PARALLEL INVOCATION: 1 invocation on all (4) thread.
+Ephemeral storage: NA.
+Ephemeral File System: NA.
+
+SAMPLE: ERR188044_chrX.1.fastq (278.2MB), ERR188044_chrX.2.fastq (278.2MB)
+REF_GENOME: chrX_tran (271.7)
+
+CMD: ./hisat2 -x chrX_tran -1 ERR188044_chrX_1.fastq -2 ERR188044_chrX_2.fastq -S ERR188044.sam
+
+RUNTIME (single-core): 00:02:05
+RUNTIME (multi-core): 00:01:09
+
+OUTPUT:
+1321477 reads; of these:
+1321477 (100.00%) were paired; of these:
+112727 (8.53%) aligned concordantly 0 times
+1185082 (89.68%) aligned concordantly exactly 1 time
+23668 (1.79%) aligned concordantly >1 times
+----
+112727 pairs aligned concordantly 0 times; of these:
+  4530 (4.02%) aligned discordantly 1 time
+----
+108197 pairs aligned 0 times concordantly or discordantly; of these:
+  216394 mates make up the pairs; of these:
+109001 (50.37%) aligned 0 times
+104634 (48.35%) aligned exactly 1 time
+2759 (1.27%) aligned >1 times
+95.88% overall alignment rate
